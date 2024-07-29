@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22382114039",
+    "project_id": "personal-gallery-2ec3a",
+    "storage_bucket": "personal-gallery-2ec3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22382114039:android:c64464919193e6564f4ff2",
+        "android_client_info": {
+          "package_name": "com.herondev.personal_gallery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtamysUHAl2b1b0FcSCeSSjDrtUU90GFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
