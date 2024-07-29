@@ -36,6 +36,7 @@ class _AddImageScreenState extends State<AddImageScreen> {
         child: GetBuilder<AddImageScreenController>(
           builder: (addImageScreenController) {
             return SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
               padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
               child: Column(
                 children: [

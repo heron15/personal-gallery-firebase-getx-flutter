@@ -21,6 +21,7 @@ class FullImageViewScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
           padding: const EdgeInsets.only(left: 30, right: 30, top: 50, bottom: 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,

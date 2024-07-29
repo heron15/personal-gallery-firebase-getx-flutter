@@ -60,6 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       : OrientationBuilder(
                           builder: (BuildContext context, Orientation orientation) {
                             return GridView.builder(
+                              physics: const BouncingScrollPhysics(),
                               padding: const EdgeInsets.all(15),
                               itemCount: homeScreenController.imageDataList.length,
                               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
